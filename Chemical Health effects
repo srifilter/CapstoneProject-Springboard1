@@ -1,1 +1,17 @@
-Data on the toxicities of various chemicals was availabe from kaggle database. Each chemical is categories into toxic category as recognized and suspected. Additionally toxicity towards health of various body parts are given. It is very common to find these chemicals in many consumer products such as cleaning detergents. Our porject is to develop a methodology and a model to evaulate the health risk of common household consumer product. The chemicals in teh consumer product will be compared with the database and we will give visual insights on the toxicity of the product. Addtionally machine learning algorithm will be used to develop a score card on the health effects of the consumer product.
+Data on the toxicities of various chemicals was availabe from kaggle database. Each chemical is categories into toxic category as recognized and suspected. Additionally toxicity towards health of various body parts are given. It is very common to find these chemicals in many consumer products such as cleaning detergents. Our porject is to develop a methodology and a model to evaulate the health risk of common household consumer product. 
+
+What is the problem you want to solve?
+Identifying the toxicity of a consumer product ( e.g, detergent, shampoo etc..) towards various health relathed issues.
+
+Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+Wellness programs can use this model in prescribing the appropriate daily usage consumer products for individuals. Every person has different levels of sensitivity towards health issues. So, the model can identify the risk factor   of a particular porduct which can help in choosing the right products to use.
+
+What data are you going to use for this? How will you acquire this data?
+Database on chemical health effects and toxicitis is available in kaggle. The base model will the developed with this dataset.
+
+In brief, outline your approach to solving this problem (knowing that this might change later).
+The chemicals in the consumer product will be compared with the database and we will give visual insights on the toxicity of the chemicals in the product. Machine learning algorithm will be used to develop a score card on the health effects of the consumer product. Addtionally a star rate will be given on the overall health effects of the product.
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+
+Code which includes the model.  A report describing the backend of the model. Finally a good user interface that can be used as an app.
